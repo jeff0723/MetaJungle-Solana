@@ -1,0 +1,12 @@
+[programs.localnet]
+metajungle_solana = "3suksArS2PRpzbPQbQ9yVgty8Yx1VqPgrjnbJjPdBe5J"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/jeffery.yh.lin/.config/solana/id.json"
+
+[scripts]
+test = "npx ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
