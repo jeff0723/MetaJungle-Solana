@@ -18,3 +18,4 @@ default = []
 anchor-lang = "0.20.1"
 anchor-spl = {version = "0.20.1"}
 spl-token = {version = "3.1.1", features = ["no-entrypoint"]}
+switchboard-aggregator = "0.1.7"
